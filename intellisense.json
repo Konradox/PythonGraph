@@ -1,16 +1,37 @@
-"rfLanguageServer.libraries": [
-    "SeleniumLibrary-3.2.0", 
-    "Dialogs-3.1.1",
-    "BuiltIn-3.1.1",
-    {
-        "name": "Graph",
-        "version": "1.0.0",
-        "keywords": [
-            { "name": "Delete Group By Name", "args": ["groupName"], "doc": "Deletes Office 365 group."},
-            { "name": "Delete Group By Id", "args": ["groupId"], "doc": "Deletes Office 365 group."},
-            { "name": "Get Group Id", "args": ["groupName"], "doc": "Returns group ID."},
-            { "name": "Get Group Members", "args": ["groupId"], "doc": "Returns a list of group members."},
-            { "name": "Get Group Members Display Names", "args": ["groupId"], "doc": "Returns a list of group members display names."},
-        ]
-    }
-  ],​
+{
+    "rfLanguageServer.libraries": [
+        "SeleniumLibrary-3.2.0",
+        "Dialogs-3.1.1",
+        "BuiltIn-3.1.1",
+        {
+            "name": "Graph",
+            "version": "1.0.0",
+            "keywords": [{
+                    "name": "Delete Group By Name",
+                    "args": ["groupName"],
+                    "doc": "Deletes Office 365 group."
+                },
+                {
+                    "name": "Delete Group By Id",
+                    "args": ["groupId"],
+                    "doc": "Deletes Office 365 group."
+                },
+                {
+                    "name": "Get Group Id",
+                    "args": ["groupName"],
+                    "doc": "Returns group ID."
+                },
+                {
+                    "name": "Get Group Members",
+                    "args": ["groupId"],
+                    "doc": "Returns a list of group members."
+                },
+                {
+                    "name": "Get Group Members Display Names",
+                    "args": ["groupId"],
+                    "doc": "Returns a list of group members display names."
+                }
+            ]
+        }
+    ]
+}
